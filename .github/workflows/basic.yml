@@ -45,4 +45,3 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - run: echo ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-    
